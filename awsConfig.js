@@ -1,0 +1,12 @@
+import AWS from 'aws-sdk';
+
+AWS.config.update({
+  accessKeyId: "ASIARJJ3J34X4VXPPH33",
+  secretAccessKey: "+9JAp20oP6KJ7RDm4r0W6/uxnLc4CImLeTrYwZP2",
+  sessionToken: "IQoJb3JpZ2luX2VjENP//////////wEaCXVzLXdlc3QtMiJHMEUCIA7JILwuP7CVpoIsK/D0fvnF7r9Ut/CnxR3gvm8rkJY5AiEAnTkJ5Cjq8ynJTPTRyWgQGBfI8MBw1K7S08kAFnQdLxAquAIIXBABGgwwODg3MDgwNzk0MDciDOfHaL+X8WzyGvi0IyqVAvGruIsLhQisRfCyBJ8N+wV7Hl/f3T6WZd5ov93YS0Re/zKuchxtKpsp9eeOxmVWRXn+7flX2xXKuEMBOuExiBl8tK7TVqgl8RwVhv+0t3rcXoi8zZpMjqF9mYDITtJmU0aeOiW1FOcfrdeVUeRnM6dfqXZVl41wNHQquQmRawP2axYg4o6lggT48HMZFhNcMbOkTpCAY4FQJfLuXlFSI1LeBlXFRxgPDrw1NUDqnFNSxs2PdYsRH2p8GZPIyoZfaFzQEM+a/QfUCzns8pOPaOjBcccX6iI1xEOmVZJC32UtxMuKBCVqArzQhMRFkROSc6il6+EpmU5HFqygjxLwkcpf8ysCVDh/M2J1Rc3ns3+YHRPoLaww6LqDwAY6nQEg+4hs3I8xhOaFKi0+DVZvyT0cWXeiLp5Yxj74/zwiDnnyDM+kcWYoegQSXQcJFbY1k3RWY7qpvBAK3o2cQPznIK91m2VG8tzNa9VNeJZTsDW7+S3dCWzFHIKoEoyk4ZRg/5+BilLExKDeFiFecZGTL9lKNuBk3ZSvXzfvMdw3ZcZcSVOxx6OcLHB5FUldpmNFsfby55YbpWGT+ZtZ",
+  region: "us-east-1"
+});
+
+const s3 = new AWS.S3();
+
+export default s3;
